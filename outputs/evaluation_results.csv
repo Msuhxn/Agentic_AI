@@ -1,0 +1,21 @@
+scenario_name,approach,criterion,score,justification
+Scenario 1 - Structured outline,baseline_prompt,Coherence,2,The text is understandable but could connect ideas more clearly.
+Scenario 1 - Structured outline,baseline_prompt,Structure quality,5,The output uses headings or lists that make the structure easy to inspect.
+Scenario 1 - Structured outline,baseline_prompt,Controllability,2,One direct prompt gives few visible control points after generation starts.
+Scenario 1 - Structured outline,baseline_prompt,Consistency,3,The output is broadly relevant but may not reinforce the same focus throughout.
+Scenario 1 - Structured outline,baseline_prompt,Practical usefulness,2,The output gives some useful direction but remains fairly general.
+Scenario 1 - Structured outline,agentic_workflow,Coherence,3,The text is understandable but could connect ideas more clearly.
+Scenario 1 - Structured outline,agentic_workflow,Structure quality,5,The output uses headings or lists that make the structure easy to inspect.
+Scenario 1 - Structured outline,agentic_workflow,Controllability,4,"Planner, reviewer, and refiner stages make the process more visible."
+Scenario 1 - Structured outline,agentic_workflow,Consistency,4,The output stays aligned with the content-planning task.
+Scenario 1 - Structured outline,agentic_workflow,Practical usefulness,3,The output gives some useful direction but remains fairly general.
+Scenario 2 - Draft refinement,baseline_prompt,Coherence,4,The text has a connected flow and enough detail for the scenario.
+Scenario 2 - Draft refinement,baseline_prompt,Structure quality,1,The output has limited visible structure for comparison or screenshots.
+Scenario 2 - Draft refinement,baseline_prompt,Controllability,2,One direct prompt gives few visible control points after generation starts.
+Scenario 2 - Draft refinement,baseline_prompt,Consistency,4,The output stays aligned with the content-planning task.
+Scenario 2 - Draft refinement,baseline_prompt,Practical usefulness,3,The output gives some useful direction but remains fairly general.
+Scenario 2 - Draft refinement,agentic_workflow,Coherence,4,The text has a connected flow and enough detail for the scenario.
+Scenario 2 - Draft refinement,agentic_workflow,Structure quality,2,The output has limited visible structure for comparison or screenshots.
+Scenario 2 - Draft refinement,agentic_workflow,Controllability,4,"Planner, reviewer, and refiner stages make the process more visible."
+Scenario 2 - Draft refinement,agentic_workflow,Consistency,4,The output stays aligned with the content-planning task.
+Scenario 2 - Draft refinement,agentic_workflow,Practical usefulness,4,The output includes concrete actions that a reader could apply.
